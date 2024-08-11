@@ -1,5 +1,7 @@
-def caesar_chiper (string,shift)
-  result = ""
+# frozen_string_literal: true
+
+def caesar_chiper(string, shift)
+  result = ''
 
   # Traverse through each character in the text
   string.each_char do |char|
@@ -18,5 +20,5 @@ def caesar_chiper (string,shift)
   result
 end
 
-puts caesar_chiper("Hello gaes", 2)
-puts caesar_chiper("Jgnnq icgu", -2)
+puts caesar_chiper('Hello gaes', 2)
+puts caesar_chiper('Jgnnq icgu', -2)
